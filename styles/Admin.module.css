@@ -1,0 +1,21 @@
+.container {
+  padding: 0 2rem;
+  margin: auto;
+}
+.topBox {
+  width: 100%;
+  height: 20%;
+  background-color: aqua;
+}
+.topBoxText {
+  font-size: 18px;
+}
+.middleBox {
+  width: 100%;
+  height: 70%;
+  background-color: white;
+}
+.bottomBox {
+  width: 100%;
+  height: 10%;
+}
