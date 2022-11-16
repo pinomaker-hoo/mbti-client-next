@@ -1,21 +1,53 @@
 .container {
-  padding: 0 2rem;
-  margin: auto;
+  text-align: center;
 }
-.topBox {
+
+.container_in {
+  width: 90%;
+  height: 100%;
+  display: inline-block;
+}
+.top {
   width: 100%;
-  height: 20%;
-  background-color: aqua;
+  height: 30%;
 }
-.topBoxText {
+.top_text {
   font-size: 18px;
+  margin-top: 50px;
 }
-.middleBox {
+.top_share_Outbox {
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.top_share_Inbox {
+  width: 78%;
+  height: 30px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  margin-left: 10px;
+  float: left;
+  padding-left: 15px;
+}
+.top_share_text {
+  margin: 0;
+  line-height: 30px;
+  text-align: left;
+}
+.top_share_btn {
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+.middle {
   width: 100%;
   height: 70%;
-  background-color: white;
-}
-.bottomBox {
-  width: 100%;
-  height: 10%;
 }
